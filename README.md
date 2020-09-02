@@ -4,7 +4,7 @@
 <br>
 <h2> Descrição </h2>
 <ul>
-  <li>Ele funciona da seguinte forma: você escreve a usa data de nascimento nos <br>
+  <li>Ele funciona da seguinte forma: você escreve uma data de nascimento nos <br>
   três primeiros campos, e posiciona o mouse sobre o primeiro botão. Ele vai calcular <br>
   os outros campos se baseando na sua informação.</li>
   <li>Programa feito somente com html, css e js.</li>
