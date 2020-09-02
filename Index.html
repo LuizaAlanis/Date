@@ -9,18 +9,18 @@
         <div id="container">
             <div id="form">
                 <div id="conteudo">
-                    <h1> O dia em que nasci </h1>
+                    <h1> Objeto Date </h1>
                     <form>
-                        <p> Informe o dia em que nasceu <input type="text" class="textbox"></p>
-                        <p> Informe o mês em que nasceu <input type="text" class="textbox"></p>
-                        <p> Informe o ano em que nasceu <input type="text" class="textbox"></p>
-                        <p> O mês de nascimento por extenso <input type="text" class="textbox" readonly="readonly"></p>
-                        <p> O dia da semana <input type="text" class="textbox" readonly="readonly"></p>
-                        <p> O seu signo é <input type="text" class="textbox" readonly="readonly"></p>
-                        <p> A sua idade é <input type="text" class="textbox" readonly="readonly"></p>
+                        <p> Informe o dia em que nasceu <input id="dia" type="text" class="textbox"></p>
+                        <p> Informe o mês em que nasceu <input id="mes" type="text" class="textbox"></p>
+                        <p> Informe o ano em que nasceu <input id="ano" type="text" class="textbox"></p>
+                        <p> O mês de nascimento por extenso <input id="extenso" type="text" class="textbox" disabled></p>
+                        <p> O dia da semana <input id="semana" type="text" class="textbox" disabled></p>
+                        <p> O seu signo é <input id="signo" type="text" class="textbox" disabled></p>
+                        <p> A sua idade é <input id="idade" type="text" class="textbox" disabled></p>
                         <br>
-                        <button class="button"> Exibir </button>
-                        <button class="button"> Limpar </button>
+                        <button class="button" onmouseover="start()"> Exibir </button>
+                        <button class="button" onmouseover="foco()"> Limpar </button>
                     </form>
                 </div>
             </div>
